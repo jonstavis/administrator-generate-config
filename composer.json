@@ -1,0 +1,23 @@
+{
+    "name": "yottaram/administrator-config",
+    "description": "A simple model configuration generator for Laravel Administrator",
+    "keywords": ["administrator", "admin", "generator", "laravel-administrator", "laravel", "config"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Stavis",
+            "email": "jon@yottaram.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "frozennode/administrator": "4.*",
+    },
+    "autoload": {
+        "psr-0": {
+            "Yottaram\\AdministratorConfig": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
